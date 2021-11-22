@@ -1,0 +1,75 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #222222;
+  text-align: center;
+  max-width: 945px;
+  margin: auto;
+  color: seashell;
+  font-size: 1.2em;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.item {
+  width: 300px;
+  background-color: #222222;
+  margin: 0.5em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  padding: 1em 0px;
+}
+
+header img {
+  height: 3em;
+  width: auto;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+  margin: 0.25em;
+}
+
+#mission {
+  background: url(./images/img-mission-background.jpg) center no-repeat;
+}
+
+#mission div {
+  background-color: #222222;
+  margin: 25% 1em;
+  padding: 0.5em;
+}
+
+#locations {
+  background: url(./images/img-locations-background.jpg) center/cover no-repeat;
+}
+
+#locations .container {
+  padding-bottom: 1.5em;
+}
+
+#mission * {
+  margin: 0.75em 0;
+}
+
+section {
+  margin: auto;
+  padding: 1.5em;
+}
+
+.item h4 {
+  margin: auto;
+}
